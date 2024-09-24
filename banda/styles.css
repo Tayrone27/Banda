@@ -1,0 +1,86 @@
+/* Estilo geral do corpo */
+body{
+ background-image: url(./ilXJH2D.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+body {
+  
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+/* Estilo principal */
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Estilo da biografia */
+.biografia {
+    margin-bottom: 2rem;
+    color: #fff;
+    justify-content: center;
+    
+}
+
+.biografia h2 {
+    border-bottom: 2px solid #fff
+    padding-bottom: 0.5rem;
+}
+
+/* Estilo das músicas */
+.musicas h2 {
+    border-bottom: 2px solid #fff
+    padding-bottom: 1px;
+}
+
+.musicas ul {
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    padding: 16px;
+}
+
+.musicas li {
+    background: #333;
+    margin: 0.5rem 5;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo do rodapé */
+footer {
+    
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: var(width 5px);
+    bottom: 0;
+    width: 100%;
+    
+
+}
